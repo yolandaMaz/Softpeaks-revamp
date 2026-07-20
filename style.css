@@ -1,104 +1,16 @@
-
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
-    background-color: #fceefaa9;
-    margin: 0;
-    padding: 0;
-}
-
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-}
-
-.hero-title {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.hero-title {
-    color: #E7A9B8 !important;
-}
-
- h2 {
-    font-weight: 600;
-    color: #E7A9B8;
-}
-
-p {
-    font-weight: 400;
-    color: #555555;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-.custom-btn {
-    background-color: #ffc2d1;
-    color: #555;
-    font-family: 'Quicksand', sans-serif;
-    border: none;
-}
-
-.custom-btn :hover {
-    background-color: #ffafbd;
-}
-
-.category-container img {
-    max-width: 300px;
-    height: auto;
-    max-height: 250px;
-}
-
-h2 {
-    margin-top: 20px;
-}
-
-.luckiest-guy-regular {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
- h2 {
-    font-family: "luckiest guy", cursive;
-    src: url(Luckiest_Guy.zip) format(truetype);
- }
-
- .rubik-maze-regular {
-  font-family: "Rubik Maze", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.hero-title {
-    font-family: rubik maze;
-    src: url(Rubik_Maze.zip) format(truetype);
-    font-size: 4.5rem;
-}
-
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 2rem;
-    }
-}
-
-
-
+body{font-family:'Montserrat',sans-serif;color:#333;background-color:#fceefaa9;margin:0;padding:0}
+.hero{display:flex;align-items:center;justify-content:center;padding:20px;gap:20px}
+.hero-title{font-size:1.8rem;margin-bottom:10px}
+.hero img{max-width:100%;height:auto;border-radius:8px}
+.hero-title{color:#e7a9b8 !important}h2{font-weight:600;color:#e7a9b8}
+p{font-weight:400;color:#555;font-family:Arial,Helvetica,sans-serif}
+.custom-btn{background-color:#ffc2d1;color:#555;font-family:'Quicksand',sans-serif;border:0}
+.custom-btn :hover{background-color:#ffafbd}
+.category-container img{max-width:300px;height:auto;max-height:250px}
+h2{margin-top:20px}
+.luckiest-guy-regular{font-family:"Luckiest Guy",cursive;font-weight:400;font-style:normal}
+h2{font-family:"luckiest guy",cursive;src:url(Luckiest_Guy.zip) format(truetype)}
+.rubik-maze-regular{font-family:"Rubik Maze",system-ui;font-weight:400;font-style:normal}
+.hero-title{font-family:rubik maze;src:url(Rubik_Maze.zip) format(truetype);font-size:4.5rem}
+@media(max-width:768px){.hero-title{font-size:2.5rem}}
+@media(max-width:480px){.hero-title{font-size:2rem}}
