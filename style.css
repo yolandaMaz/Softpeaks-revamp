@@ -45,8 +45,15 @@ p {
 
 
 
-btn:hover {
-    color: #FFD54F
+.custom-btn {
+    background-color: #ffc2d1;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+}
+
+.custom-btn :hover {
+    background-color: #ffafbd;
 }
 
 .category-container img {
@@ -58,4 +65,40 @@ btn:hover {
 h2 {
     margin-top: 20px;
 }
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+ h2 {
+    font-family: "luckiest guy", cursive;
+    src: url(Luckiest_Guy.zip) format(truetype);
+ }
+
+ .rubik-maze-regular {
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-title {
+    font-family: rubik maze;
+    src: url(Rubik_Maze.zip) format(truetype);
+    font-size: 4.5rem;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+}
+
+
 
