@@ -1,16 +1,13 @@
-.cart-link {
-    display: block;
-    text-align: right;
-    padding: 10px 20px;
-}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: #333333;
-    background-color: #ffffff;
+    background-color: #fceefaa9;
     margin: 0;
     padding: 0;
 }
+
 
 .hero {
     display: flex;
@@ -46,18 +43,19 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #B0B0B0;
-    color: #FFFFFF;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
+
 
 btn:hover {
     color: #FFD54F
+}
+
+.category-container img {
+    max-width: 300px;
+    height: auto;
+    max-height: 250px;
+}
+
+h2 {
+    margin-top: 20px;
 }
 
